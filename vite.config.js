@@ -15,14 +15,6 @@ export default defineConfig({
     allowedHosts: [
       '5173-ida887hl6gexevttp8p23-06cf730a.manusvm.computer'
     ]
-  },
-  base: './',
-  build: {
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'index.html')
-      }
-    }
   }
 })
 
